@@ -34,6 +34,11 @@ header {
 	justify-content: space-between;
 }
 
+.header-container.scrolled {
+	background-color: black;
+	transition: background-color 0.5s;
+}
+
 .hamburger-menu {
 	display: none;
 }
@@ -109,4 +114,16 @@ li > a {
 
 .mobile-nav {
 	display: none
+}
+
+.intro {
+	width: 100%;
+	height: 40rem;
+	background-color: green;
+}
+
+.qualifications {
+	width: 100%;
+	height: 55rem;
+	background-color: black;
 }

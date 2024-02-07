@@ -14,3 +14,10 @@ document.querySelector('.hamburger-menu').addEventListener('click', () => {
 	mobileNav.classList.toggle('active')
 })
 
+window.addEventListener('scroll', () => {
+	if (window.scrollY > 50) {
+		headerContainer.classList.add('scrolled')
+	} else {
+		headerContainer.classList.remove('scrolled')
+	}
+})
