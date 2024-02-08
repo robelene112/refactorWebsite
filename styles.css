@@ -118,8 +118,13 @@ li > a {
 
 .intro {
 	width: 100%;
-	height: 40rem;
-	background-color: green;
+	height: 38rem;
+}
+
+.portrait-container {
+	width: 40rem;
+	margin-left: 5%;
+	filter: brightness(80%);
 }
 
 .qualifications {
