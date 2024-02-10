@@ -117,18 +117,32 @@ li > a {
 }
 
 .intro {
-	width: 100%;
-	height: 38rem;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid red;
 }
 
 .portrait-container {
+	height: 40rem;
 	width: 40rem;
-	margin-left: 5%;
+	position: relative;
 	filter: brightness(80%);
+	border: 1px solid red;
+}
+
+.intro-text {
+	color: white;
+	position: relative;
+	width: 40rem;
+	height: 100%;
+	border: 1px solid red;
 }
 
 .qualifications {
 	width: 100%;
 	height: 55rem;
 	background-color: black;
+}
+img {
+	border: 1px solid red;
 }
